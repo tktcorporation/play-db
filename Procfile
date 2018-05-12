@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/test-scala-db -Dhttp.port=$PORT -Dconfig.resource=heroku.conf
