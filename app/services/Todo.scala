@@ -3,7 +3,7 @@ package services
 import javax.inject.Inject
 
 import anorm.SqlParser._
-import anorm._
+import play.db.anorm._
 import play.api.db.DBApi
 
 import scala.language.postfixOps
