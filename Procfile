@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/test-scala-db -Dhttp.port=$PORT -Dconfig.resource=heroku.conf
+web: target/universal/stage/bin/play-db -Dhttp.port=${PORT} -DapplyEvolutions.default=true
